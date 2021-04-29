@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Knjiznica
 {
-    public partial class Form1 : Form
+    public partial class Ucenici : Form
     {
-        public Form1()
+        public Ucenici()
         {
             InitializeComponent();
+        }
+
+        private void Ucenici_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
