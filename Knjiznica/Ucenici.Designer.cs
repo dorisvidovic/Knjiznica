@@ -33,14 +33,13 @@ namespace Knjiznica
             this.btnDodaj = new System.Windows.Forms.Button();
             this.btnUredi = new System.Windows.Forms.Button();
             this.btnBrisi = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // labelUcenici
             // 
             this.labelUcenici.AutoSize = true;
-            this.labelUcenici.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelUcenici.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelUcenici.Location = new System.Drawing.Point(22, 22);
             this.labelUcenici.Name = "labelUcenici";
             this.labelUcenici.Size = new System.Drawing.Size(78, 24);
@@ -49,7 +48,7 @@ namespace Knjiznica
             // 
             // btnDodaj
             // 
-            this.btnDodaj.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDodaj.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDodaj.Location = new System.Drawing.Point(431, 99);
             this.btnDodaj.Name = "btnDodaj";
             this.btnDodaj.Size = new System.Drawing.Size(145, 79);
@@ -59,7 +58,7 @@ namespace Knjiznica
             // 
             // btnUredi
             // 
-            this.btnUredi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUredi.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUredi.Location = new System.Drawing.Point(431, 196);
             this.btnUredi.Name = "btnUredi";
             this.btnUredi.Size = new System.Drawing.Size(145, 79);
@@ -70,23 +69,13 @@ namespace Knjiznica
             // 
             // btnBrisi
             // 
-            this.btnBrisi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBrisi.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBrisi.Location = new System.Drawing.Point(431, 290);
             this.btnBrisi.Name = "btnBrisi";
             this.btnBrisi.Size = new System.Drawing.Size(145, 79);
             this.btnBrisi.TabIndex = 3;
             this.btnBrisi.Text = "Brisi";
             this.btnBrisi.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(0, 0);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 4;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
@@ -102,7 +91,6 @@ namespace Knjiznica
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(702, 450);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.btnBrisi);
             this.Controls.Add(this.btnUredi);
             this.Controls.Add(this.btnDodaj);
@@ -121,7 +109,6 @@ namespace Knjiznica
         private System.Windows.Forms.Button btnDodaj;
         private System.Windows.Forms.Button btnUredi;
         private System.Windows.Forms.Button btnBrisi;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.TextBox textBox1;
     }
 }
