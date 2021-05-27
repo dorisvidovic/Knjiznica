@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace Knjiznica
 {
-    public partial class DetaljiPosudbe : Form
+    public partial class DetaljiUcenika : Form
     {
-        public DetaljiPosudbe()
+        public DetaljiUcenika()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        private void label6_Click(object sender, EventArgs e)
         {
 
         }

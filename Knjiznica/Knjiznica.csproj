@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DetaljiPosudbe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetaljiPosudbe.Designer.cs">
+      <DependentUpon>DetaljiPosudbe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetaljiUcenika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetaljiUcenika.Designer.cs">
+      <DependentUpon>DetaljiUcenika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Knjiznica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Knjiznica.Designer.cs">
+      <DependentUpon>Knjiznica.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ucenici.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +72,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DetaljiPosudbe.resx">
+      <DependentUpon>DetaljiPosudbe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetaljiUcenika.resx">
+      <DependentUpon>DetaljiUcenika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Knjiznica.resx">
+      <DependentUpon>Knjiznica.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
